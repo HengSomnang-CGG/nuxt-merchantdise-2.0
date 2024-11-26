@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-gray-50 text-white;
+}
+
+@layer components {
+  .btn {
+    @apply text-white lg:px-8 px-3 py-2 rounded-lg md:text-xl lg:text-2xl sm:text-sm text-sm;
+  }
+
+  .card {
+    @apply rounded-lg shadow-md h-full bg-none border-none;
+  }
+
+  /* .thumb {
+    max-height: auto;
+    max-width: 80%;
+    margin: 0 auto;
+  } */
+}
